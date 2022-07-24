@@ -67,4 +67,4 @@ if (msg.content === "Hello") {
 }
 });
 
-client.login(process.env.BOT_BOKEN);
+client.login(process.env.token);
