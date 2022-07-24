@@ -63,8 +63,8 @@ client.on("message", (msg) => {
   }
 
 if (msg.content === "Hello") {
-sendMessage("Hello!");
+  sendMessage("Hello!");
 }
 });
 
-client.login("BOT_TOKEN");
+client.login(process.env.BOT_BOKEN);
