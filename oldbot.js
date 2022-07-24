@@ -1,17 +1,18 @@
+/*
 const { Client, Attachment, RichEmbed } = require('discord.js');
 const Discord = require('discord.js');
 const client = new Discord.Client();
-/*
+
 const item = quiz[Math.floor(Math.random() * quiz.length)];
 const filter = response => {
 	return item.answers.some(answer => answer.toLowerCase() === response.content.toLowerCase());
 };
-*/
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-/*
+
 client.on('message', msg => {
   if (msg.content === '!pj') {
     msg.reply('\nКоманды: !servers !owner !about !quiz !link \nАдмин команды: !say !event !clear\nГифки: !win !nyancat !nice !fuckyou');
@@ -47,7 +48,7 @@ client.on('message', msg => {
     }
   } 
 });
-*/
+
 
 client.on('message', function(message) {
   if (message.content == "!clear") {
@@ -84,3 +85,4 @@ client.on('message', message => {
 });
 
 client.login(process.env.BOT_TOKEN);
+*/
